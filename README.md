@@ -1,13 +1,14 @@
 # Basic Project
 
-*Default Structure for A Basic Project*
+### Default structure for a project, used as a base for all future projects
 
-_Java 7_
-
+Using:
+* Java 8
 * Maven
-* Log4j
 * TestNG
+* Log4j
+* Eclipse Neon
 
 Java Project for SQA Boot Camp Program.
 
-[Alex Munteanu]
+Author: [Alex Munteanu](amunteanu88@gmail.com)
