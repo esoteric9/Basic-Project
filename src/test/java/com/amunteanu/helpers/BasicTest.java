@@ -43,9 +43,12 @@ public class BasicTest extends Core
 	@BeforeMethod(groups = "ie")
 	public void setupIE()
 	{
+		System.setProperty("webdriver.ie.driver", "drivers/IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		setDriver(driver);
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		getDriver().manage().window().maximize();
+		getDriver().manage().deleteAllCookies();
 		getDriver().get(getBaseURL());
 	}
 
