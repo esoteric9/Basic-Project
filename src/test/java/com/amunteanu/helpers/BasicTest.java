@@ -30,7 +30,7 @@ public class BasicTest extends Core
 		getDriver().get(getBaseURL());
 	}
 
-	@BeforeMethod(groups = "chrome", enabled = false)
+	@BeforeMethod(groups = "chrome")
 	public void setupChrome()
 	{
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
@@ -40,7 +40,7 @@ public class BasicTest extends Core
 		getDriver().get(getBaseURL());
 	}
 
-	@BeforeMethod(groups = "ie", enabled = false)
+	@BeforeMethod(groups = "ie")
 	public void setupIE()
 	{
 		WebDriver driver = new InternetExplorerDriver();
