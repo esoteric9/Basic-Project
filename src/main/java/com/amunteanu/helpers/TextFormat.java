@@ -8,16 +8,13 @@
 package com.amunteanu.helpers;
 
 /**
- * TextFormat //ADDD (description of class)
- * <p>
- * //ADDD (description of core fields)
- * <p>
- * //ADDD (description of core methods)
+ * TextFormat class is an enumeration containing different text formats
  *
  * @author Munteanu, Alex
  * @version 1.0.0
  * @since 1.0
  */
-public enum TextFormat {
+public enum TextFormat
+{
 	CSV, JSON, TAB, XML
 }

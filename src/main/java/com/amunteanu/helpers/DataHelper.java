@@ -40,11 +40,9 @@ import com.amunteanu.helpers.exceptions.DataTypesTypeException;
 import com.amunteanu.helpers.exceptions.InvalidExcelExtensionException;
 
 /**
- * DataHelper //ADDD (description of class)
- * <p>
- * //ADDD (description of core fields)
- * <p>
- * //ADDD (description of core methods)
+ * DataHelper class contains utility methods for accessing data from different sources like databases 
+ * and files of different formats.
+ * Core methods: displayData(), evalDatabaseTable(), getExcelFileData(), getTextFileData()
  *
  * @author Munteanu, Alex
  * @version 1.0.0
@@ -63,12 +61,18 @@ public class DataHelper
 
 	private static Logger logger = Logger.getLogger(DataHelper.class);
 
+	/**
+	 * Purpose: Gets the Logger object
+	 * Return the Logger object
+	 */
 	public static Logger getLogger()
 	{
 		return logger;
 	}
 
-	// Static method
+	/**
+	 * Method to display data in a 2-d array as a String
+	 */
 	public static String displayData(Object[][] data)
 	{
 		StringBuilder sb = new StringBuilder();

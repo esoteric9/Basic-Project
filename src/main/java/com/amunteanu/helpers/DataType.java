@@ -8,16 +8,13 @@
 package com.amunteanu.helpers;
 
 /**
- * DataType //ADDD (description of class)
- * <p>
- * //ADDD (description of core fields)
- * <p>
- * //ADDD (description of core methods)
+ * DataType class is an enumeration containing different data types
  *
  * @author Munteanu, Alex
  * @version 1.0.0
  * @since 1.0
  */
-public enum DataType {
+public enum DataType
+{
 	FLOAT, INT, STRING, CHAR, DOUBLE, BOOLEAN
 }
