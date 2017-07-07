@@ -1,8 +1,5 @@
 /**
  * File Name: Core.java<br>
- * Munteanu, Alex<br>
- * Java Boot Camp Exercise<br>
- * Instructor: Jean-francois Nepton<br>
  * Created: Feb 11, 2017
  */
 package com.amunteanu.helpers;
@@ -18,10 +15,10 @@ import org.openqa.selenium.WebDriver;
  * <p>
  * Contains the WebDriver and Logger objects and the baseURL
  * <p>
- * Contains the getDriver() and setDriver() methods which give access to the WebDriver object
- * Contains the getbaseURL() and setbaseURL() methods which give access to the baseURL variable
- * Contains the getLogger() and setLogger() methods which give access to the Logger object
- * Contains the takeScreenshot() method that allows taking a screenshot of the web page
+ * Contains the getDriver() and setDriver() methods which give access to the WebDriver object<br>
+ * Contains the getbaseURL() and setbaseURL() methods which give access to the baseURL variable<br>
+ * Contains the getLogger() and setLogger() methods which give access to the Logger object<br>
+ * Contains the takeScreenshot() method that allows taking a screenshot of the web page<br>
  * Contains methods for retrieving and writing properties to a config file
  *
  * @author Munteanu, Alex

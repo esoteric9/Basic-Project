@@ -1,3 +1,7 @@
+/**
+ * File Name: BasicPage.java<br>
+ * Created: Feb 4, 2017
+ */
 package com.amunteanu.helpers;
 
 import java.util.concurrent.TimeUnit;
@@ -11,7 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 /**
- * BasicTest class is the base for all tests
+ * BasicTest class is the base for all tests<br>
  * Contains the setup methods for different web browsers that set up each run of the test 
  * and a tear down method that quits the driver
  *

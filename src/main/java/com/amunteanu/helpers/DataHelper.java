@@ -1,8 +1,5 @@
 /**
  * File Name: DataHelper.java<br>
- * Munteanu, Alex<br>
- * Java Boot Camp Exercise<br>
- * Instructor: Jean-francois Nepton<br>
  * Created: Jan 30, 2017
  */
 package com.amunteanu.helpers;
@@ -41,7 +38,7 @@ import com.amunteanu.helpers.exceptions.InvalidExcelExtensionException;
 
 /**
  * DataHelper class contains utility methods for accessing data from different sources like databases 
- * and files of different formats.
+ * and files of different formats.<br>
  * Core methods: displayData(), evalDatabaseTable(), getExcelFileData(), getTextFileData()
  *
  * @author Munteanu, Alex

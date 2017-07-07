@@ -1,8 +1,5 @@
 /**
  * File Name: BasicPage.java<br>
- * Munteanu, Alex<br>
- * Java Boot Camp Exercise<br>
- * Instructor: Jean-francois Nepton<br>
  * Created: Feb 4, 2017
  */
 package com.amunteanu.helpers;
